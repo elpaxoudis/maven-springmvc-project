@@ -17,23 +17,23 @@ To clone this repository:
 git clone https://github.com/pagidas/maven-springmvc-project.git
 ```
 
-On the root of the project, run the following command to compile the project:
+On the root of the project, in your local machine, run the following command to compile the project:
 ```bash
 mvn compile
 ```
 
-This step is a called a /phase/ in maven’s building steps and it is going to take a little while at first. It downloads all the dependencies (JARs) that the projects needs to run, specified in the `pom.xml` file.
+This step is a called a ***phase*** in maven’s building steps and it is going to take a little while at first. It downloads all the dependencies (JARs) that the projects needs to run, specified in the `pom.xml` file.
 
 Finally:
 ```bash
 mvn jetty:run
 ```
 
-Hopefully, [Jetty](https://www.eclipse.org/jetty/documentation/9.4.x/jetty-maven-plugin.html) is up and running by calling maven’s /plugin/, supplied again in the `pom.xml` The server runs by default at port `8080`
+Hopefully, [Jetty](https://www.eclipse.org/jetty/documentation/9.4.x/jetty-maven-plugin.html) is up and running by calling maven’s ***plugin***, supplied again in the `pom.xml` The server runs by default at port `8080`
 
 To test the application running we would open a web browser and simply put
 ```http
 http://localhost:8080/
 ```
 
-The root context simply greets you with a welcome page
+The root context simply greets you with a welcome page. 
