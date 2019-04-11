@@ -8,7 +8,7 @@ to get you up and running - and that is the reason behind using this
 technology - [Maven](https://maven.apache.org/).
 
 ### Prerequisites
-To get Maven installed on whatever operating system, please read the following [instructions](https://www.baeldung.com/install-maven-on-windows-linux-mac)
+To get Maven installed on whatever operating system, please read the following [instructions](https://www.baeldung.com/install-maven-on-windows-linux-mac). This project works with JDK 1.8.0
 
 ### Installing
 
