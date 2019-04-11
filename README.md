@@ -5,7 +5,7 @@ run with just a welcome page deployed on Jetty web application server
 ## Getting Started
 Before git-cloning this project you would need to have only one thing
 to get you up and running - and that is the reason behind using this
-technology - [Maven](Maven – Welcome to Apache Mavenhttps://maven.apache.org/)).
+technology - [Maven](https://maven.apache.org/).
 
 ### Prerequisites
 To get Maven installed on whatever operating system, please read the following [instructions](https://www.baeldung.com/install-maven-on-windows-linux-mac)
